@@ -15,8 +15,8 @@ Package.on_use(function(api) {
   //////////////////////////////////////////////////////////////////
   api.use('deps@1.0.0', ['client', 'server']);
   api.use('coffeescript@1.0.0', ['client', 'server']);
-  api.use('accounts-base@1.0.0', ['client', 'server']);  // ?optional
-  api.use('accounts-password@1.0.0', ['client', 'server']);
+  api.use('accounts-base@2.2.7', ['client', 'server']);
+   api.use('accounts-password@2.3.4', ['client', 'server'], {weak: true});
   api.use('templating@1.0.0', 'client');  // ?optional
   api.use('check@1.0.0', ['client', 'server']);
   api.use('spacebars@1.0.0', 'client');
